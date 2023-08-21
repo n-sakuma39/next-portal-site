@@ -21,7 +21,7 @@ export default function Works({
       <section className={`${styles.works} section`}>
         <div className="box">
           <h2 className="title">WORKS</h2>
-          <ArchiveSelect uniqueDates={uniqueDates} />
+          {/* <ArchiveSelect uniqueDates={uniqueDates} /> */}
           <ul className={styles.worksList}>
             {works.map((work) => (
               <WorkItem key={work.id} work={work} />
